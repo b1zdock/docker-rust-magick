@@ -1,3 +1,3 @@
-# deno-magick-rust
+# docker-rust-magick
 
-A simple docker container that extends rust:slim-buster container with imagick 7 libs. 
+A simple docker container that extends rust:slim-buster container and adds imagemagick 7 libs.

@@ -1,4 +1,4 @@
-FROM rust:1-slim-buster
+FROM rust:stable
 
 RUN apt-get update \
  && apt-get install -y curl wget libssl-dev build-essential clang \

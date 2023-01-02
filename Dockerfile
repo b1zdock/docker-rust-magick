@@ -1,4 +1,4 @@
-FROM rust:stable
+FROM rust:latest
 
 RUN apt-get update \
  && apt-get install -y curl wget libssl-dev build-essential clang \
